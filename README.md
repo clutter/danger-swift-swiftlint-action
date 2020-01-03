@@ -1,5 +1,5 @@
 Dockerfile that installs both Danger-swift and Swiftlint
-To use it just add to your actions yaml
+To use, just add the following to your actions yaml:
 
 ```yaml
     runs-on: ubuntu-latest
@@ -7,7 +7,7 @@ To use it just add to your actions yaml
     steps:
       - uses: actions/checkout@v1
       - name: Danger
-        uses: f-meloni/danger-swift-swiftlint-action@0.1.0
+        uses: clutter/danger-swift-swiftlint-action@0.2.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
