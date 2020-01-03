@@ -1,4 +1,4 @@
-FROM FROM swift:5.1
+FROM swift:5.1
 
 MAINTAINER Jeremy Grenier
 
